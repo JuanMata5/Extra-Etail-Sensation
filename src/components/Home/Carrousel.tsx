@@ -4,11 +4,11 @@ const Carrousel: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const slides = [
-    "/public/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
-    "/public/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
-    "/public/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
-    "/public/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
-    "/public/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
+    "/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
+    "/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
+    "/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
+    "/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
+    "/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
   ];
 
   const handlePrevious = () => {
