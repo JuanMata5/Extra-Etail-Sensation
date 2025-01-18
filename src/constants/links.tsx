@@ -6,12 +6,17 @@ export const navbarLinks = [
     },
     {
         id: 2,
-        title: "Remeras",
-        href: "/Remeras",
+        title: "Productos",
+        href: "/ProductsPage",
     },
     {
         id: 3,
         title: "Sobre nosotros",
-        href: "/nosotros",
+        href: "/AboutPage",
+    },
+    {
+        id: 4,
+        title: "Contacto",
+        href: "/Contact",
     }
 ]

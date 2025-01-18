@@ -26,14 +26,18 @@ const Carrousel: React.FC = () => {
   return (
     <div id="default-carousel" className="relative w-full">
       {/* Carousel wrapper */}
-      <div className="relative h-56 overflow-hidden rounded-lg md:h-96 ">
+      <div className="relative h-56 md:h-96 overflow-hidden rounded-lg">
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`duration-700 ease-in-out absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 ${index === activeIndex ? "" : "hidden"}`}
+            className={`duration-700 ease-in-out absolute w-full top-0 left-0 ${index === activeIndex ? "" : "hidden"}`}
             data-carousel-item
           >
-            <img src={slide} alt={`Slide ${index + 1}`} />
+            <img
+              src={slide}
+              alt={`Slide ${index + 1}`}
+              className="w-full h-full object-cover"
+            />
           </div>
         ))}
       </div>

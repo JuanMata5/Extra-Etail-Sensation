@@ -2,7 +2,7 @@ import { MdLocalShipping } from "react-icons/md"
 
 export const FeatureGrid = () => {
   return (
-    <div className=" m-4 grid grid-cols-2 gap-8 mt-6 mb-16 lg:grid-cols-4 lg:gap-5">
+    <div className="pt-[50px] m-4 grid grid-cols-2 gap-8 mt-6 mb-16 lg:grid-cols-4 lg:gap-5">
         <div className="flex items-center gap-6">
           <MdLocalShipping size={40} className="text-slate-400" />
 
