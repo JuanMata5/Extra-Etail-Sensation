@@ -7,7 +7,7 @@ const Products = () => {
           <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
             <a href="" className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
               <img
-                src="/public/img/mockup-basica-negra-b989fa8f1daf238e2f17123227639037-480-0.jpg"
+                src="/img/mockup-basica-negra-b989fa8f1daf238e2f17123227639037-480-0.jpg"
                 alt="Remeras"
                 className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
               />
