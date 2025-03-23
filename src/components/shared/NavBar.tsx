@@ -27,7 +27,7 @@ export const NavBar = () => {
 
       {/* Menú Mobile (oculto por defecto, solo visible si 'isOpen' es true) */}
       <div
-        className={`absolute top-[80px] left-0 right-0 w-[90%] h-[200vh]  bg-white shadow-lg p-5 text-xl gap-[50px] flex flex-col items-start space-y-4 transition-all duration-300 z-50 ${
+        className={`absolute top-[60px] left-0 right-0 w-[90%] h-[200vh]  bg-white shadow-lg p-5 text-xl gap-[50px] flex flex-col items-start space-y-4 transition-all duration-300 z-50 ${
           isOpen ? "block" : "hidden"
         } md:hidden`} // 'hidden' si isOpen es false, 'block' si isOpen es true
       >
