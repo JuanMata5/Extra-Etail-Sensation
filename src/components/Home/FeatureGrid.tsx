@@ -7,7 +7,7 @@ export const FeatureGrid = () => {
           <MdLocalShipping size={40} className="text-slate-400" />
 
           <div className="space-y-1">
-              <p className="font-semibold">
+              <p className="font-semibold text-red-800">
                 Soporte 24/7
               </p>
               <p className="text-sm">
@@ -20,7 +20,7 @@ export const FeatureGrid = () => {
           <MdLocalShipping size={40} className="text-slate-400" />
 
           <div className="space-y-1">
-              <p className="font-semibold">
+              <p className="font-semibold text-red-800">
                 Envio Gratis
               </p>
               <p className="text-sm">
@@ -33,7 +33,7 @@ export const FeatureGrid = () => {
           <MdLocalShipping size={40} className="text-slate-400" />
 
           <div className="space-y-1">
-              <p className="font-semibold">
+              <p className="font-semibold text-red-800">
                  Devoluciones
               </p>
               <p className="text-sm">
@@ -46,7 +46,7 @@ export const FeatureGrid = () => {
           <MdLocalShipping size={40} className="text-slate-400" />
 
           <div className="space-y-1">
-              <p className="font-semibold">
+              <p className="font-semibold text-red-800">
                 Garantia
               </p>
               <p className="text-sm">

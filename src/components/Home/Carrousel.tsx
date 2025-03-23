@@ -4,19 +4,23 @@ const Carrousel: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const slides = [
-    "/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
-    "/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
-    "/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
-    "/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
-    "/captura-de-pantalla-2018-01-07-a-las-16-18-2411-b896799c1742b7e46b15154389209065-1024-1024.png",
+    "../../public/hero/heroCarousel.png",
+    "../../public/hero/DALL·E 2025-03-21 18.04.59 - A futuristic, high-energy digital design banner featuring the words 'E-TAIL 420' in bold, graffiti-style letters with a blood-splattered effect. The b.webp",
+    "../../public/hero/heroCarousel.png",
+    "../../public/hero/heroCarousel.png",
+    "../../public/hero/heroCarousel.png",
   ];
 
   const handlePrevious = () => {
-    setActiveIndex((prevIndex) => (prevIndex === 0 ? slides.length - 1 : prevIndex - 1));
+    setActiveIndex((prevIndex) =>
+      prevIndex === 0 ? slides.length - 1 : prevIndex - 1
+    );
   };
 
   const handleNext = () => {
-    setActiveIndex((prevIndex) => (prevIndex === slides.length - 1 ? 0 : prevIndex + 1));
+    setActiveIndex((prevIndex) =>
+      prevIndex === slides.length - 1 ? 0 : prevIndex + 1
+    );
   };
 
   const handleIndicatorClick = (index: number) => {
@@ -24,31 +28,35 @@ const Carrousel: React.FC = () => {
   };
 
   return (
-    <div id="default-carousel" className="relative w-full">
+    <div id="default-carousel" className="relative w-full h-full">
       {/* Carousel wrapper */}
-      <div className="relative h-56 md:h-96 overflow-hidden rounded-lg">
+      <div className="relative w-full  md:h-[500px] overflow-hidden rounded-lg">
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`duration-700 ease-in-out absolute w-full top-0 left-0 ${index === activeIndex ? "" : "hidden"}`}
+            className={`absolute inset-0 w-full h-[65vh] transition-opacity duration-700 ease-in-out ${
+              index === activeIndex ? "opacity-100" : "opacity-0"
+            }`}
             data-carousel-item
           >
             <img
               src={slide}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover "
             />
           </div>
         ))}
       </div>
 
       {/* Slider indicators */}
-      <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+      <div className=" absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
         {slides.map((_, index) => (
           <button
             key={index}
             type="button"
-            className={`w-3 h-3 rounded-full ${index === activeIndex ? "bg-blue-600" : "bg-white"}`}
+            className={`w-3 h-3 rounded-full ${
+              index === activeIndex ? "bg-blue-600" : "bg-white"
+            }`}
             aria-current={index === activeIndex ? "true" : "false"}
             aria-label={`Slide ${index + 1}`}
             onClick={() => handleIndicatorClick(index)}

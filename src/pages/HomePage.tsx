@@ -8,11 +8,12 @@ import Products from "../components/Home/Products"
 
 export const HomePage = () => {
   return (
-     <section>
+     <section className="">
        <Carrousel/>
        <FeatureGrid/>
        <Products/>
        <NewsLetter/>
+
      </section>
   )
 }

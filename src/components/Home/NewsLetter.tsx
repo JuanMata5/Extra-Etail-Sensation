@@ -6,7 +6,7 @@ export const NewsLetter = () => {
       <div className="mx-auto px-6 lg:px-8 ">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 ">
           <div className="max-w-xl lg:max-w-lg ">
-            <h2 className="text-4xl font-semibold tracking-tight text-black">Suscríbete a nuestro boletín</h2>
+            <h2 className="text-4xl  font-semibold tracking-tight text-red-800">Suscríbete a nuestro boletín</h2>
             <p className="mt-4 text-lg text-black">
               Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt
               dolore.
@@ -26,7 +26,7 @@ export const NewsLetter = () => {
               />
               <button
                 type="submit"
-                className="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="flex-none rounded-md bg-red-800 text-white px-3.5 py-2.5 text-sm font-semibold  shadow-sm hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
                 Suscribirse
               </button>
@@ -37,7 +37,7 @@ export const NewsLetter = () => {
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                 <CalendarDaysIcon aria-hidden="true" className="size-6 text-black" />
               </div>
-              <dt className="mt-4 text-base font-semibold text-black">Artículos semanales</dt>
+              <dt className="mt-4 text-base font-semibold text-red-800">Artículos semanales</dt>
               <dd className="mt-2 text-base/7 text-black">
                 Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.
               </dd>
@@ -46,7 +46,7 @@ export const NewsLetter = () => {
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                 <HandRaisedIcon aria-hidden="true" className="size-6 text-black" />
               </div>
-              <dt className="mt-4 text-base font-semibold text-black">Sin spam</dt>
+              <dt className="mt-4 text-base font-semibold text-red-800">Sin spam</dt>
               <dd className="mt-2 text-base/7 text-black">
                 Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim.
               </dd>
