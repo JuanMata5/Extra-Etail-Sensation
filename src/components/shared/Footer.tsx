@@ -12,7 +12,7 @@ export const Footer = () => {
           >
             <Logo />
             <img
-              src="/public/footer/DALL·E 2025-03-21 18.05.21 - A futuristic, high-energy digital design banner featuring the words 'E-TAIL SENSATION' in bold, metallic letters with a blood-splattered effect..webp"
+              src="/footer/DALL·E 2025-03-21 18.05.21 - A futuristic, high-energy digital design banner featuring the words 'E-TAIL SENSATION' in bold, metallic letters with a blood-splattered effect..webp"
               alt="Descripción de la imagen"
               className=" border-[2px] border-black rounded-md w-[350px] h-[140px] object-cover  "
             />

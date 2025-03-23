@@ -6,7 +6,7 @@ export const GalleryShop = () => {
         <section className="p-5 py-10 bg-white border border-gray-200  text-center transform duration-500 hover:-translate-y-2 cursor-pointer">
           <img  
             
-            src="/public/img/DiseñoDelantero.jpeg"
+            src="/img/DiseñoDelantero.jpeg"
             alt="Soft Plushy Cushion Chair"
           />
            <div className="space-x-1 flex justify-center mt-10">
@@ -23,7 +23,7 @@ export const GalleryShop = () => {
         <section className="p-5 py-10 bg-white border border-gray-200 text-center transform duration-500 hover:-translate-y-2 cursor-pointer">
           <img  
             
-            src="/public/img/diseñoEspalda.jpeg"
+            src="/img/diseñoEspalda.jpeg"
             alt="Comfortable Wooden Chair"
           />
           <div className="space-x-1 flex justify-center mt-10">
@@ -40,7 +40,7 @@ export const GalleryShop = () => {
         <section className="p-5 py-10 bg-white border border-gray-200 text-center transform duration-500 hover:-translate-y-2 cursor-pointer">
           <img  
             
-            src="/public/img/diseñoEspaldaDemon.jpeg"
+            src="/img/diseñoEspaldaDemon.jpeg"
             alt="Multipurpose Wooden Trolly"
           />
           <div className="space-x-1 flex justify-center mt-10">
@@ -57,7 +57,7 @@ export const GalleryShop = () => {
         <section className="p-5 py-10 bg-white border border-gray-200 text-center transform duration-500 hover:-translate-y-2 cursor-pointer">
           <img  
             
-            src="/public/img/diseñoEspaldaDemon.jpeg"
+            src="/img/diseñoEspaldaDemon.jpeg"
             alt="Tool Set"
           />
           <div className="space-x-1 flex justify-center mt-10">
@@ -73,7 +73,7 @@ export const GalleryShop = () => {
         <section className="p-5 py-10 bg-white border border-gray-200 text-center transform duration-500 hover:-translate-y-2 cursor-pointer">
           <img  
             
-            src="/public/img/DiseñoDelantero.jpeg"
+            src="/img/DiseñoDelantero.jpeg"
             alt="Tool Set"
           />
           <div className="space-x-1 flex justify-center mt-10">
@@ -89,7 +89,7 @@ export const GalleryShop = () => {
         <section className="p-5 py-10 bg-white border border-gray-200 text-center transform duration-500 hover:-translate-y-2 cursor-pointer">
           <img  
             
-            src="/public/img/diseñoEspalda.jpeg"
+            src="/img/diseñoEspalda.jpeg"
             alt="Tool Set"
           />
           <div className="space-x-1 flex justify-center mt-10">
@@ -105,7 +105,7 @@ export const GalleryShop = () => {
         <section className="p-5 py-10 bg-white border border-gray-200 text-center transform duration-500 hover:-translate-y-2 cursor-pointer">
           <img  
             
-            src="/public/img/diseñoEspalda.jpeg"
+            src="/img/diseñoEspalda.jpeg"
             alt="Tool Set"
           />
           <div className="space-x-1 flex justify-center mt-10">
